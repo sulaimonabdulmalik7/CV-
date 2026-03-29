@@ -1,0 +1,26 @@
+body{
+    background-color: brown;
+    background-image: url(alfirdaus\ logo.png);
+    width: 500px;
+    height: 300px;
+      animation-name: colorchange;
+      animation-duration: 5s; 
+      }
+    @keyframes colorchange {
+      0%   { background-color: red; }
+      25%  { background-color: orange; }
+      50%  { background-color: yellow; }
+      75%  { background-color: green; }
+      100% { background-color: blue; }
+    }
+
+h1{
+    text-align: center;
+    color: burlywood;
+    border: 5px dashed;
+    background: black;
+    margin: 10px; 
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
